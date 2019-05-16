@@ -13,6 +13,11 @@ html, body {
 	height: 100%;
 }
 
+body {
+	background-image: url("/images/gplaypattern.png");
+	background-attachment: fixed;
+}
+
 .crop-circle {
 	clip-path: circle(50px);
 }
@@ -36,6 +41,9 @@ body {
 
 
 nav#main-menu {
+	position: fixed;
+	top: 25px;
+	width: 100%;
 	z-index: 2;
 	transform: skewY(-2deg);
 	background-color: #aaaaaa;
@@ -62,9 +70,15 @@ nav#main-menu a {
 /* ---------- [ Header ] ---------- */
 
 header {
+	z-index: 3;
+	background-color: #fff;
+	width: 100%;
+	padding-top: 100px;
 	transform: skewY(-2deg);
 	padding-left: 10px;
 	margin-bottom: 2px;
+	position: fixed;
+	top: -110px;
 }
 
 header h1, h4 {
@@ -96,13 +110,11 @@ header a {
 }
 
 div#content {
+	margin-top: 100px;
 	transform: skewY(-2deg);
-	background-image: url("/images/gplaypattern.png");
-	background-attachment: fixed;
 }
 
 article {
-	z-index: 1;
 	background-color: #fff;
 	width: 800px;
 	margin: auto;
@@ -185,6 +197,9 @@ footer {
 	height: 150px;
 	background-color: #333333;
 	color: grey;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
 }
 
 footer a {

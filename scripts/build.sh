@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir -p public/about public/projects public/resume public/contact
-mustache ./pages/home.json ./views/default.mustache > public/index.html
-mustache ./pages/about.json ./views/default.mustache > public/about/index.html
-mustache ./pages/projects.json ./views/default.mustache > public/projects/index.html
-mustache ./pages/resume.json ./views/resume.mustache > public/resume/index.html
-mustache ./pages/contact.json ./views/default.mustache > public/contact/index.html
+mkdir -p docs/about docs/projects docs/resume docs/contact
+mustache ./pages/home.json ./views/default.mustache > docs/index.html
+mustache ./pages/about.json ./views/default.mustache > docs/about/index.html
+mustache ./pages/projects.json ./views/default.mustache > docs/projects/index.html
+mustache ./pages/resume.json ./views/resume.mustache > docs/resume/index.html
+mustache ./pages/contact.json ./views/default.mustache > docs/contact/index.html

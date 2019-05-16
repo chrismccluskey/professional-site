@@ -1,0 +1,80 @@
+{
+	"title": "Resume",
+	"companies": [
+		{
+			"company_name": "Digital Trends",
+			"job_title": "Sr. Web Developer",
+			"year_start": 2016,
+			"year_end": 2019,
+			"bullets": [
+				{"bullet": "Contributed to core site development in a full stack capacity for digitaltrends.com - a WordPress site with 24mm+ unique monthly users (11.5mm U.S. Comscore) that had 4k - 11k concurrent visitors at any moment. Focused on backend with some front-end work."},
+				{"bullet": "Developed custom WordPress plugins which interacted with internal and external APIs with performance and concurrency in mind. Created custom WPCLI commands to automate content housekeeping tasks. Worked directly with affiliate marketing networks, ad platforms and multiple video providers."},
+				{"bullet": "Developed custom React components for rich client-side experiences. Created social analytics data aggregation platform to facilitate getting reporting data into AWS RDS. Automated tens of thousands of videos from one provider to another."}
+			]
+		},
+		{
+			"company_name": "Ethology",
+			"job_title": "Director of Internal Applications",
+			"year_start": 2011,
+			"year_end": 2016,
+			"bullets": [
+				{"bullet": "Rebuilt python-based reporting backend and IP-rotating web proxy to include multi-processing rate limiting. Refactored later to distribute work over multiple machines."},
+				{"bullet": "Built content analysis tool with site crawling / archival, version controlled CMS, project management, NLP-based content identification and browser automation."},
+				{"bullet": "Moved hosted infrastructure to SaltStack configuration management, built cross-platform team development environment to match production using Vagrant and VirtualBox, maintained entire linux production stack for all applications, and moved to Jenkins-based continuous integration workflow."}
+			]
+		},
+		{
+			"company_name": "EngineWorks",
+			"job_title": "Director of Technology",
+			"year_start": 2005,
+			"year_end": 2011,
+			"bullets": [
+				{"bullet": "Hired as first employee, built IT infrastructure, handled all tech support / Linux system administration and internal application development. EngineWorks was acquired by Tallwave in 2011 to become “Ethology”."},
+				{"bullet": "Built web analytics and tracking suite / customer portal “EngineRoom”, maintained on BSD server / LAMP stack."},
+				{"bullet": "Wrote search engine scraper with custom IP-rotating proxy and reporting system."}
+			]
+		},
+		{
+			"company_name": "My Little Salesman",
+			"job_title": "Computer Programmer",
+			"year_start": 2004,
+			"year_end": 2005,
+			"bullets": [
+				{"bullet": "Wrote search engine scraper with custom IP-rotating proxy and reporting system."},
+				{"bullet": "Refactored back end to close bug that reduced page load from 3-5 minutes to under a second."},
+				{"bullet": "Helped port classic ASP code from VBScript to ASP.Net / C#."}
+			]
+		},
+		{
+			"company_name": "Marketing By Mail",
+			"job_title": "Manager of Technical Web Operations",
+			"year_start": 2003,
+			"year_end": 2004,
+			"bullets": [
+				{"bullet": "Built HTML and Flash-based WYSIWYG postcard designer web application that interfaced with a digital printing press and accepted credit cards."},
+				{"bullet": "Deployed and managed the Linux production environment for the system."},
+				{"bullet": "Implemented secure firewall, off-site backups, managed mail, and DNS."}
+			]
+		},
+		{
+			"company_name": "Modulus",
+			"job_title": "Web Applications Engineer",
+			"year_start": 2002,
+			"year_end": 2003,
+			"bullets": [
+				{"bullet": "Built, deployed and managed web application for Java Server Pages in a Tomcat and Linux environment."}
+			]
+		},
+		{
+			"company_name": "Net Solutions",
+			"job_title": "Web Applications Engineer",
+			"year_start": 2001,
+			"year_end": 2002,
+			"bullets": [
+				{"bullet": "Built CMS system with Custom JavaScript WYSIWYG Editor."},
+				{"bullet": "Authored FTP client as HTML embedded ActiveX control for large file uploads."},
+				{"bullet": "Wrote PHP-based PDF generator and web-based calendar / scheduling system."}
+			]
+		}
+	]
+}

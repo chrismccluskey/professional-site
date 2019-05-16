@@ -1,0 +1,253 @@
+/* ---------- [ Global ] ---------- */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+.crop-circle {
+	clip-path: circle(50px);
+}
+
+.big {
+	font-size: 1.5em;
+}
+
+.small {
+	font-size: .75em;
+}
+
+/* ---------- [ Layout ] --------- */
+
+body {
+	display: grid;
+	grid-template-rows: 40px 4.5em auto 150px;
+}
+
+/* ---------- [ Navigation ] ---------- */
+
+
+nav#main-menu {
+	z-index: 2;
+	transform: skewY(-2deg);
+	background-color: #aaaaaa;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+nav#main-menu ul {
+	padding: 20px 0 20px 0;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+nav#main-menu li {
+	display: inline;
+}
+
+nav#main-menu a {
+	text-decoration: none;
+	color: #222;
+}
+
+/* ---------- [ Header ] ---------- */
+
+header {
+	transform: skewY(-2deg);
+	padding-left: 10px;
+	margin-bottom: 2px;
+}
+
+header h1, h4 {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+header a {
+	text-decoration: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.brand-font {
+	font-family: 'Rubik', cursive;
+}
+
+/* ---------- [ Content ] ---------- */
+
+#page-title {
+	z-index: 5;
+	text-align: center;
+	width: 100%;
+	font-family: 'Rubik', cursive;
+	transform: skewY(-2deg);
+	font-size: 2.5em;
+}
+
+div#content {
+	transform: skewY(-2deg);
+	background-image: url("/images/gplaypattern.png");
+	background-attachment: fixed;
+}
+
+article {
+	z-index: 1;
+	background-color: #fff;
+	width: 800px;
+	margin: auto;
+	margin-top: -15px;
+	min-height: 100%;
+	padding-bottom: 150px;
+}
+
+div#content article {
+	z-index: 1;
+	padding-top: 30px;
+	transform: skewY(2deg);
+}
+
+section {
+	z-index: 1;
+	width: 760px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+section p {
+	padding: 1em 0 1em 0;
+}
+
+section h2 {
+	text-align: center;
+}
+
+div.card-header {
+	position: relative;
+	z-index: 1;
+	clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+	height: 200px;
+}
+
+div.card-header h2 {
+	z-index: 2;
+	position: relative;
+	top: calc(100px - 0.75em);
+	width: 100%;
+	text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;*/
+	font-family: 'Rubik', cursive;
+	font-size: 2.5em;
+	color: white;
+}
+
+div.card-header img {
+	z-index: 1;
+	object-fit: cover;
+	height: 400px;
+	transform: translateY(-15%);
+}
+
+div.card-icons {
+	z-index: 2;
+	font-size: 30px;
+	height: 30px;
+	color: #333;
+	position: relative;
+	top: -20px;
+	margin-bottom: -30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.card-icons > i {
+	padding: 0 0 0 10px;
+}
+
+div.card-body {
+
+}
+
+/* ---------- [ Footer ] ---------- */
+
+footer {
+	transform: skewY(0deg);
+	height: 150px;
+	background-color: #333333;
+	color: grey;
+}
+
+footer a {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+div#footer-content {
+	width: 800px;
+	margin: auto;
+	height: 100px;
+	margin-top: 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 3fr;
+	gap: 1em;
+}
+
+div.social {
+	font-size: 3em;
+	justify-self: center;
+	align-self: center;
+}
+
+.headshot {
+	height: 100px;
+	justify-self: end;
+}
+
+div.footer-text {
+	display: grid;
+}
+
+/* --------- [ Pages ] -------- */
+.resume-download {
+	text-align: center;
+	margin: 30px;
+}
+
+.resume-download .button {
+	font-size: 20px;
+	text-decoration: none;
+	border: 1px solid #555;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: #999;
+	color: #fff;
+}
+
+.resume-company {
+	background-color: #ccc;
+	margin: 0 10px;
+	padding: 10px;
+}
+
+.resume-dates {
+	float: right;
+}
+
+.resume-bullets {
+	margin: 0 20px;
+	padding: 20px;
+}
+
+.resume-bullets > li {
+	padding: 5px 0;
+}

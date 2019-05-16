@@ -1,0 +1,14 @@
+{
+	"title": "",
+	"cards": [
+		{
+			"title": "Your ideas: realized.",
+			"image": "/images/lil_fiber_@2X.png",
+			"body": [
+				{"paragraph": "Hi, I'm Chris. This is my home on the web."},
+				{"paragraph": "I have been programming professionally since 2001, specializing in full stack web development."},
+				{"paragraph": "This site is a small representation of my work."}
+			]
+		}
+	]
+}

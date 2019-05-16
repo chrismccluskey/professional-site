@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chris McCluskey: {{title}}</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
+		<link rel="stylesheet" href="/styles/default.css" />
+	</head>
+	<body>
+		<header>
+			<h1 class="brand-font">Chris McCluskey</h1>
+			<h4 class="brand-font">Full Stack Web Engineer</h4>
+		</header>
+		<nav id="main-menu">
+			<ul>
+				<li><a href="/about">About</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/resume">Resume</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="content">
+			<article>
+				<h1 id="page-title">{{title}}</h1>
+				<section>
+					<div class="resume-download">
+					<a href="/pdf/resume-of-chris-mccluskey.pdf" class="button">Download Resume (PDF)</a>
+					</div>
+				</section>
+				{{#companies}}
+				<section>
+					<div class="resume-company">
+						<h3>{{company_name}}</h3>
+						<h4>{{job_title}}</h4>
+						<h4 class="resume-dates">{{year_start}} - {{year_end}}</h4>
+					</div>
+					<ul class="resume-bullets">
+						{{#bullets}}
+						<li>{{bullet}}</li>
+						{{/bullets}}
+					</ul>
+				</section>
+				{{/companies}}
+			</article>
+			<!-- aside>
+				[Aside]
+			</aside -->
+		</div>
+		<footer>
+			<div id="footer-content">
+				<div></div>
+				<img src="./images/headshot.jpeg" class="headshot crop-circle" />
+				<div class="social">
+					{{#social}}
+						<a href="{{url}}" target="_new"><i class="fab fa-{{fabid}}"></i></a>
+					{{/social}}
+				</div>
+				<div class="footer-text">
+					<div class="brand-font">
+						<span class="big">Chris McCluskey</span><br />
+						Full Stack Web Engineer<br />
+					</div>
+					<em>I love building the web.</em>
+					<a class="small" href="">site credits</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

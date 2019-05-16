@@ -1,0 +1,13 @@
+{
+	"title": "Contact",
+	"cards": [
+		{
+			"title": "Let's connect",
+			"image": "/images/contact-background.jpg",
+			"body": [
+				{"paragraph": "Want to learn more? Reach out and I'll be happy to answer any questions you have. You can reach me via email: chris (at this domain)"},
+				{"paragraph": "Alternatively, you can reach out via my linked in or github profiles (see the icons in the footer)."}
+			]
+		}
+	]
+}

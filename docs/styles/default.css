@@ -196,7 +196,7 @@ footer {
 	transform: skewY(0deg);
 	height: 150px;
 	background-color: #333333;
-	color: grey;
+	color: #fff;
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
